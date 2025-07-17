@@ -1,2 +1,53 @@
 
 /* Your CSS Code here. */
+.wrapper {
+      max-width: 800px;
+      margin: 20px auto;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    video {
+      width: 100%;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+      align-items: center;
+    }
+
+    .player__button,
+    .skip {
+      padding: 5px 10px;
+      font-size: 16px;
+    }
+
+    .player__slider {
+      width: 100px;
+    }
+
+    .progress {
+      flex: 1;
+      height: 8px;
+      background: #ccc;
+      cursor: pointer;
+      position: relative;
+      margin-top: 10px;
+    }
+
+    .progress__filled {
+      background: #f66;
+      width: 0%;
+      height: 100%;
+    }
+
+    .speed {
+      margin-top: 10px;
+    }
+
+    .speed-bar {
+      font-weight: bold;
+    }
